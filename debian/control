@@ -1,0 +1,32 @@
+Source: ctop
+Section: admin
+Priority: optional
+Maintainer: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
+Build-Depends: debhelper-compat (= 13),
+	       golang (>= 1.15),
+	       dh-golang (>= 1.15),
+	       golang-github-burntsushi-toml-dev,
+	       golang-github-c9s-goprocinfo-dev,
+	       golang-github-fsouza-go-dockerclient-dev,
+	       golang-github-gizak-termui-dev,
+	       golang-github-jgautheron-codename-generator-dev,	       
+	       golang-github-mattn-go-runewidth-dev,
+	       golang-github-mitchellh-go-wordwrap-dev,
+	       golang-github-nsf-termbox-go-dev,
+	       golang-github-nu7hatch-gouuid-dev,
+	       golang-github-op-go-logging-dev,
+	       golang-github-opencontainers-runc-dev,
+	       golang-github-pkg-errors-dev,
+	       golang-github-stretchr-testify-dev,
+Standards-Version: 4.6.0
+Homepage: https://github.com/bcicen/ctop
+Vcs-Browser: https://gitlab.com/kaisenlinux/packages/ctop
+Vcs-Git: https://gitlab.com/kaisenlinux/packages/ctop.git
+XS-Go-Import-Path: github.com/bcicen/ctop
+
+Package: ctop
+Architecture: amd64 arm64
+Depends: ${shlibs:Depends},
+	 ${misc:Depends},
+	 golang-go,
+Description: Top-like interface for container metrics

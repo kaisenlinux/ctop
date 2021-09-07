@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+export DEB_BUILD_OPTIONS=nocheck
+
+%:
+	dh $@ --buildsystem=golang --with=golang
+
+override_dh_auto_build:
+	make build

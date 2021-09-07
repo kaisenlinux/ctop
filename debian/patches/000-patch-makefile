@@ -1,0 +1,13 @@
+Author: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
+
+--- ctop-0.7.6.orig/Makefile
++++ ctop-0.7.6/Makefile
+@@ -1,6 +1,6 @@
+ NAME=ctop
+-VERSION=$(shell cat VERSION)
+-BUILD=$(shell git rev-parse --short HEAD)
++VERSION=0.7.6
++#BUILD=$(shell git rev-parse --short HEAD)
+ LD_FLAGS="-w -X main.version=$(VERSION) -X main.build=$(BUILD)"
+ 
+ clean:
