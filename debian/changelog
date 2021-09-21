@@ -1,3 +1,9 @@
+ctop (1:0.7.6-3kaisen) kaisen-packages; urgency=medium
+
+  * No include ctop sources
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 21 Sep 2021 07:42:42 +0200
+
 ctop (1:0.7.6-2kaisen) kaisen-packages; urgency=medium
 
   * Update packaging
