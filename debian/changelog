@@ -1,3 +1,10 @@
+ctop (1:0.7.6-4kaisen) kaisen-packages; urgency=medium
+
+  * Add the ctop logo
+  * Update dependancies required to build this package
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 10 Mar 2022 18:08:34 +0200
+
 ctop (1:0.7.6-3kaisen) kaisen-packages; urgency=medium
 
   * No include ctop sources
