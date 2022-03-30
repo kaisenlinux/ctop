@@ -1,9 +1,9 @@
-ctop (1:0.7.6-4kaisen) kaisen-packages; urgency=medium
+ctop (1:0.7.7-1kaisen) kaisen-packages; urgency=medium
 
-  * Add the ctop logo
-  * Update dependancies required to build this package
+  * Import new upstream release
+  * Add docs
 
- -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 10 Mar 2022 18:08:34 +0200
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 29 Mar 2022 20:48:53 +0100
 
 ctop (1:0.7.6-3kaisen) kaisen-packages; urgency=medium
 
