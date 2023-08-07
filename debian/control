@@ -15,5 +15,4 @@ Package: ctop
 Architecture: amd64 arm64
 Depends: ${shlibs:Depends},
 	 ${misc:Depends},
-	 golang-go,
 Description: Top-like interface for container metrics
